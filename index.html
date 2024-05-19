@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <title>TravelCom - Travelling Booking</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="main-container">
+        <div class="nav">
+          <div class="logo">
+            <a href="/">Travel<span>.</span>Com</a>
+          </div>
+
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+            <ul>
+              <li><a href="#main-container">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#destination">Destination</a></li>
+              <li><a href="#ticket">Ticket & Price</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a href="login.html" target="_blank">
+                  <button class="btn">Login</button>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+          </div>
+        </div>
+
+        <section id="hero">
+          <div class="hero-left">
+            <h3 class="pre-title"><b>From Southeast Asia to the World, All Yours.</b></h3>
+            <h1 class="hero-name">Travel.<span>Com</span></h1>
+            <p>
+              TravelCom adalah perusahaan agen perjalanan berbasis daring dengan berbagai moda transportasi maupun akomodasi.
+              Perusahaan ini berkantor pusat di Kepri, Tanjungpinang, Indonesia. Didirikan pada tahun 2024 oleh Rendi Kurniawan dan Nacha Navya.
+              TravelCom yang merupakan salah satu test uji coba website untuk tugas UAS Mini project dan Pemograman 2 STT Indonesia ini
+              mengembangkan layanannya pada pemesanan tiket kereta api, bus, penyewaan mobil, hingga aktivitas wisata.
+            </p>
+          </div>
+
+          <div class="hero-right">
+            <img src="./images/mockup.svg" alt="Travel Illustration" />
+          </div>
+        </section>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Services -->
+    <section id="services">
+      <div class="services main-container">
+        <h3 class="pre-title">Services</h3>
+        <h1 class="section-title services-title">Why book with Travelcom</h1>
+
+        <div class="grid-3">
+          <div class="service">
+            <div class="service-icon">
+              <svg 
+              width="24"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd">
+              <path d="M9.082 2.303c.299-1.286 1.468-2.303 2.918-2.303 1.487 0 2.639 1.057 2.923 2.316 1.701.422 3.117 1.306 4.056 2.81.748 1.199 1.054 2.393 1.553 6.089 1.002.265 1.634.865 1.912 1.76.263.846.516 3.591.554 5.029.035 1.473-.395 2.64-1.881 3.131l-.01.003c-.498 3.078-3.527 2.848-4.527 2.859-1.444.009-2.692-.004-4.576-.011-1.198.004-5.325.013-5.804-.016-1.984-.158-3.03-1.228-3.297-2.829-1.144-.363-1.904-1.3-1.904-2.805 0-1.27.205-3.603.482-5.056.233-1.083.886-1.775 1.994-2.067.47-3.648.804-5.189 1.868-6.588.951-1.251 2.245-1.956 3.739-2.322m-2.827 4.823c-.436 1.241-.839 4.666-.991 5.915-.331.02-.67.032-1.004.062-.688.073-.765.255-.845.727-.274 1.602-.413 3.459-.415 4.565.01.593.204.797.695.887.156.027.929.09 1.1.105.083 2.411.128 2.588 2.649 2.611 1.335.008 4.56-.011 4.56-.011 2.637.01 3.49.021 4.862.008 2.281-.022 2.273-.42 2.347-2.607.332-.029.664-.053.995-.091.836-.118.812-.542.784-1.39-.04-1.277-.184-2.807-.425-4.195-.068-.341-.178-.486-.569-.57-.274-.062-.97-.085-1.252-.102-.124-1-.548-4.579-.991-5.852-.877-2.523-3.084-3.19-5.777-3.19-2.65 0-4.843.628-5.723 3.128m11.746 10.863c-.012 1.923-.901 2.937-2.888 2.998-2.073.019-4.144.021-6.217 0-1.896-.061-2.854-1.164-2.896-2.928v-4.068h12.001v3.998zm-7-2.998h-4c0 1.036-.023 2.071.001 3.106.045 1.318.711 1.85 1.915 1.89 2.059.021 4.118.019 6.176 0 1.383-.043 1.895-.565 1.909-2.001v-2.995h-4.001v2.998c0 .551-.449 1-1 1-.552 0-1-.449-1-1v-2.998zm.446-8.196c-1.944.149-2.953.773-3.213 5.208-.062.632-.961.629-1-.019.013-.702.153-1.945.351-2.804.359-1.542 1.033-2.742 2.543-3.185.974-.286 2.781-.285 3.749 0 1.455.426 2.133 1.555 2.496 3.037.244 1 .392 2.656.366 3.016-.084.582-.895.593-.993.01-.306-3.096-.336-5.126-3.255-5.267l.676 2.335c.166.75-.405 1.455-1.166 1.455-.751 0-1.319-.688-1.171-1.43l.617-2.356zm.554 1.994c.33 0 .598.268.598.597 0 .33-.268.598-.598.598-.33 0-.597-.268-.597-.598 0-.329.267-.597.597-.597m1.791-6.683c-.328-.659-.995-1.107-1.797-1.107-.814.01-1.46.46-1.783 1.102 1.082-.133 2.448-.141 3.58.005"/>
+            </svg>
+
+            </div>
+            <h4><b>One place for all your needs</b></h4>
+            <p>
+              From flights, stays, to sights,
+              just count on our <b>complete products</b> and <b>Travel Guides</b>.
+            </p>
+          </div>
+
+          <div class="service">
+            <div class="service-icon">
+              <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="24" 
+              height="24" 
+              viewBox="0 0 24 24">
+              <path d="M22 2v20h-20v-20h20zm2-2h-24v24h24v-24zm-4 7h-8v1h8v-1zm0 5h-8v1h8v-1zm0 5h-8v1h8v-1zm-10.516-11.304l-.71-.696-2.553 2.607-1.539-1.452-.698.71 2.25 2.135 3.25-3.304zm0 5l-.71-.696-2.552 2.607-1.539-1.452-.698.709 2.249 2.136 3.25-3.304zm0 5l-.71-.696-2.552 2.607-1.539-1.452-.698.709 2.249 2.136 3.25-3.304z"/>
+              </svg>
+            </div>
+            <h4><b>Flexible booking options</b></h4>
+            <p>
+              Sudden change of plan? No worries! <b>Reschedule</b> or <b>Refund</b> without hassle.
+            </p>
+          </div>
+
+          <div class="service">
+            <div class="service-icon">
+              <svg 
+              width="24" 
+              height="24" 
+              xmlns="http://www.w3.org/2000/svg" 
+              fill-rule="evenodd" 
+              clip-rule="evenodd">
+              <path d="M12 0c-3.371 2.866-5.484 3-9 3v11.535c0 4.603 3.203 5.804 9 9.465 5.797-3.661 9-4.862 9-9.465v-11.535c-3.516 0-5.629-.134-9-3zm0 1.292c2.942 2.31 5.12 2.655 8 2.701v10.542c0 3.891-2.638 4.943-8 8.284-5.375-3.35-8-4.414-8-8.284v-10.542c2.88-.046 5.058-.391 8-2.701zm5 7.739l-5.992 6.623-3.672-3.931.701-.683 3.008 3.184 5.227-5.878.728.685z"/>
+            </svg>
+            </div>
+            <h4><b>Secure & convenient payment</b></h4>
+            <p>
+              Enjoy many <b>secure ways to pay</b>, in the currency that's most convenient for you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services -->
+
+    <!-- Destination -->
+    <section id="destination">
+      <div class="destination main-container">
+        <h3 class="pre-title">Destination</h3>
+        <h1 class="section-title">Rediscover yourself in Asia and beyond</h1>
+
+        <div class="grid-3">
+          <!-- Destination 1 -->
+          <div class="destination">
+            <div class="destination-cover">
+              <img
+                src="./images/panorama/panorama.avif"
+                alt="destination 1"
+              />
+            </div>
+            <div class="destination-info">
+              <div class="destination-title">
+                <h4>Bali</h4>
+                <a href="bali.html" class="destination-link">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="destination-tags">
+                <div>Spiritual</div>
+                <div>Temples</div>
+                <div>Fantasy</div>
+              </div>
+              <p>
+                Bali is a province in Indonesia which is located in the western part of the Nusa Tenggara Islands
+              and has its capital in Denpasar City. Bali Island, which is the largest island in Bali Province, has several nicknames,
+              including the Island of the Gods and the Island of a Thousand Temples. In 2020, the population of Bali province was
+              4,317,404 people, with a density of 747 people/km2, and by the end of 2023 it would be 4,344,554 people.
+              </p>
+            </div>
+          </div>
+
+          <!-- Destination 2 -->
+          <div class="destination">
+            <div class="destination-cover">
+              <img
+                src="./images/panorama/panorama.jpg"
+                alt="destination 1"
+              />
+            </div>
+            <div class="destination-info">
+              <div class="destination-title">
+                <h4>Raja Ampat</h4>
+                <a href="raja_ampat.html" class="destination-link">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="destination-tags">
+                <div>Thousands of islands</div>
+                <div>Fantasy</div>
+                <div>Ocean</div>
+              </div>
+              <p>
+                Raja Ampat Regency is one of the districts in the province of Southwest Papua, Indonesia. The capital of this district is located in Waisai,
+                where Waisai is the administrative center of Raja Ampat Regency.
+                This district has 610 islands, including the Raja Ampat archipelago. Four of them, namely Misool Island, Salawati, Batanta and Waigeo, are large islands.
+              </p>
+            </div>
+          </div>
+
+          <!-- Destination 3 -->
+          <div class="destination">
+            <div class="destination-cover">
+              <img
+                src="./images/panorama/panorama.webp"
+                alt="destination 1"
+              />
+            </div>
+            <div class="destination-info">
+              <div class="destination-title">
+                <h4>Bintan</h4>
+                <a href="bintan.html" class="destination-link">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="destination-tags">
+                <div>Sand</div>
+                <div>Forest</div>
+                <div>Beach</div>
+              </div>
+              <p>
+                Bintan Regency, previously known as Riau Islands Regency, is one of the districts in the Riau Islands province, Indonesia.
+                The capital of the district is Bandar Seri Bentan or usually called Teluk Bintan sub-district.
+                The population of Bintan district at the end of 2023 will be 175,873 people.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Destination -->
+
+    <!-- Ticket and Price -->
+    <section id="ticket">
+      <div class="ticket main-container">
+        <h3 class="pre-title">Ticket & Price</h3>
+        <h1 class="section-title">What Intrest You?</h1>
+
+        <div class="ticket-grid">
+          <div class="ticket-left">
+            <div class="price">
+              <div class="line">
+                <div></div>
+              </div>
+              <div class="price-info">
+                <h4 class="price-title">Bali</h4>
+                <p>Jakarta (CGK) → Bali (DPS)</p>
+                <h4 class="price-nominal">Rp 740.000</h4>
+                <p>1 penumpang  |  Economy</p>
+              </div>
+            </div>
+            <div class="price">
+              <div class="line">
+                <div></div>
+              </div>
+              <div class="price-info">
+                <h4 class="price-title">Raja Ampat</h4>
+                <p>Jakarta (JKTA) → R. Ampat (RJM)</p>
+                <h4 class="price-nominal">Rp 950.000</h4>
+                <p>1 penumpang  |  Economy</p>
+              </div>
+            </div>
+            <div class="price">
+              <div class="line">
+                <div></div>
+              </div>
+              <div class="price-info">
+                <h4 class="price-title">Bintan</h4>
+                <p>Jakarta (JKTA) → Bintan (TNJ)</p>
+                <h4 class="price-nominal">Rp 1.263.000</h4>
+                <p>1 penumpang  |  Economy</p>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="rules-right">
+            <h4>Syarat dan ketentuan Traveler</h4>
+            <p>
+              Peraturan penerbangan dan proses refund
+            </p>
+
+            <div class="rules-list">
+              <ul>
+                <li>Mulai 9 Juni 2023 hingga seterusnya, berdasarkan SE Satgas COVID-19 No 1 Tahun 2023:
+                  Traveler tidak wajib lagi menyertakan bukti vaksinasi COVID-19 maupun hasil tes COVID-19 apapun, saat melakukan perjalanan.</li>
+                <li>[Info penerbangan internasional] Berbagai negara telah membuka kembali perbatasannya bagi turis internasional.</li>
+                <li>Mohon pastikan Anda telah mengecek informasi secara menyeluruh, serta memenuhi syarat penerbangan di negara asal dan negara tujuan saat bepergian internasional.</li>
+                </ul>
+
+              <ul>
+                <li>Pastikan Anda telah membaca dan memenuhi seluruh syarat penerbangan agar diperbolehkan terbang.</li>
+                <li>Pada umumnya, proses refund membutuhkan waktu hingga 90 hari.</li>
+                <li>Jika tanggal keberangkatan Anda sudah lewat namun pengajuan refund belum selesai diproses, Anda tidak perlu menghubungi kami kembali. Traveloka senantiasa bekerja sama dengan maskapai untuk memastikan refund Anda diproses dengan sesuai.
+                  Tautan</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ticket and Price  -->
+
+    <!-- Contact -->
+    <div class="contact-us">
+      <h1>Contact Us!</h1>
+    </div>
+    <section id="contact">
+      <div class="contact main-container">
+        <div class="contact-left">
+          <form
+            action="https://formspree.io/f/xeqwdykj"
+            method="POST"
+            class="contact-form"
+          >
+            <div>
+              <input type="text" placeholder="Name" name="name" />
+            </div>
+            <div>
+              <input type="email" placeholder="Email" name="email" />
+            </div>
+            <div>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div>
+              <button class="btn-submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="contact-right">
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 1c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm12 14h-24l4-8h3.135c.385.641.798 1.309 1.232 2h-3.131l-2 4h17.527l-2-4h-3.131c.435-.691.848-1.359 1.232-2h3.136l4 8z"
+                />
+              </svg>
+            </div>
+            <div class="contact-item-detail">
+              <h4>Address</h4>
+              <p>St.water pump no.28, Tj.East Pinang, District. Bestari Hill, Tanjung Pinang City, Riau Islands</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"
+                />
+              </svg>
+            </div>
+            <div class="contact-item-detail">
+              <h4>Phone</h4>
+              <p>(+62)823-1244-6928</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"
+                />
+              </svg>
+            </div>
+            <div class="contact-item-detail">
+              <h4>Email</h4>
+              <p>travelcom@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Fomter -->
+    <footer>
+      <div class="footer-icons">
+        <a href="https://www.instagram.com/">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+            />
+          </svg>
+        </a>
+
+        <a href="https://id.linkedin.com/">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
+            />
+          </svg>
+        </a>
+
+        <a href="https://x.com/?lang=id">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+            />
+          </svg>
+        </a>
+
+        <a href="https://github.com/">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+            />
+          </svg>
+        </a>
+      </div>
+      <p>&#169; 2024 - TravelCom. All right reserved</p>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
